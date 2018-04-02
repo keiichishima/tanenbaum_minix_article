@@ -274,4 +274,4 @@ Tanenbaum, A.S. and Mullender, S.J. A capability-based distributed operating sys
 [訳注] アガサ・クリスティーの[Elephants Can Remember（邦題: 象は忘れない）](URN:ISBN:0-00-231210-7) より。
 
 --
-（訳文の間違いなどは[https://github.com/keiichishima/tanenbaum\_minix\_lessons](https://github.com/keiichishima/tanenbaum_minix_lessons)のissue trackerよりご連絡ください。）
+（訳文の間違いなどは[https://github.com/keiichishima/tanenbaum\_minix\_article](https://github.com/keiichishima/tanenbaum_minix_article)のissue trackerよりご連絡ください。）
