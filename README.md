@@ -4,3 +4,4 @@
 - YamaKatsu! (@kyama0321) 様
 - ふぉーてぃないなー (@49ermania) 様
 - Tooru Takahashi (tooru) 様
+- chuntaro (chuntaro)　様
