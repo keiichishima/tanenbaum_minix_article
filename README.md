@@ -3,3 +3,4 @@
 なお、以下の方々から翻訳文の間違いを指摘していただきました。どうもありがとうございました。
 - YamaKatsu! (@kyama0321) 様
 - ふぉーてぃないなー (@49ermania) 様
+- Tooru Takahashi (tooru) 様
