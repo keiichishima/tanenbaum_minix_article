@@ -207,7 +207,7 @@ MINIXでうまく動いたもう一つの仕組みはイベント駆動モデル
 
 研究予算は終了しましたが、MINIXプロジェクトは終わりません。他の多くのプロジェクトと同様、オープンソースプロジェクトに転換を始めています。様々な改良、中にはとても興味深い機能も開発されています。例えば、ほとんどすべてのオペレーティングシステムのドライバ、ファイルシステム、メモリ管理、プロセス管理などを、メジャーバージョンが異なる（そしておそらくデータ構造も異なる）システムに動作を止めることなく更新できる機能などです（[Giuffrida2013-1](#Giuffrida2013-1)、[Giuffrida2013-2](#Giuffrida2013-2)）。更新時に一瞬だけシステムが停止する点を除いて、この更新のためにサービスを停止する必要はありませんし、動作中のプロセスに影響もありません。サーバの集合体としてシステムを構成することで、既存のシステムと比較してシステムを動作させたままでのシステム更新が単純になります。なぜなら、例えばメモリ管理機構ですら、他の（独立した）コンポーネントに影響を与えることなく更新できるからです。各コンポーネントはそれぞれ異なるアドレス空間で動作していますから。カーネルサブシステム間でポインタのやりとりをするようなシステムでは、他を変更せずにひとつのコンポーネントだけを更新することは非常に困難です。この分野は研究成果が実を結んだ数少ない、ただし他のほとんどのシステムがでは実現できないとても重要な分野の一つです。
 
-MINIX 3は無料で[http://www.minix3.org](http://www.minix3.org)からダウンロードできます。
+MINIX 3は無料で<http://www.minix3.org>からダウンロードできます。
 
 
 ## 謝辞
@@ -216,62 +216,63 @@ MINIX 3は無料で[http://www.minix3.org](http://www.minix3.org)からダウン
 
 ## 参考文献
 
-<a name="Accetta1986"></a>
-Accetta, M., Baron, R., Golub, D., Rashid, R., Tevian, A., and Young, M. Mach 1986: A new kernel foundation for Unix development. In Proceedings of the USENIX Summer Conference (Atlanta, GA, June 9–13). USENIX Association, Berkeley, CA, 1986, 93–112.
+1. <a name="Accetta1986"></a>
+Accetta, M., Baron, R., Golub, D., Rashid, R., Tevian, A., and Young, M. Mach 1986: A new kernel foundation for Unix development. In *Proceedings of the USENIX Summer Conference* (Atlanta, GA, June 9–13). USENIX Association, Berkeley, CA, 1986, 93–112.
 
-<a name="Appusway2010"></a>
-Appuswamy, R., van Moolenbroek, D.C., and Tanenbaum, A.S. Loris: A dependable, modular file-based storage stack. In Proceedings of the 16th Pacific Rim International Symposium of Dependable Computing (Tokyo, Dec. 13–15). IEEE Computer Society, Washington, D.C., 2010, 165–174.
+2. <a name="Appusway2010"></a>
+[Appuswamy, R., van Moolenbroek, D.C., and Tanenbaum, A.S. Loris: A dependable, modular file-based storage stack. In *Proceedings of the 16th Pacific Rim International Symposium of Dependable Computing* (Tokyo, Dec. 13–15). IEEE Computer Society, Washington, D.C., 2010, 165–174.](https://doi.org/10.1109/PRDC.2010.41)
 
-<a name="Brinch1970"></a>
-[Brinch Hansen, P. The nucleus of a multiprogramming system. Commun. ACM 13, 4 (Apr. 1970), 238–241.](http://dx.doi.org/10.1145/362258.362278)
+3. <a name="Brinch1970"></a>
+[Brinch Hansen, P. The nucleus of a multiprogramming system. *Commun. ACM 13*, 4 (Apr. 1970), 238–241.](https://doi.org/10.1145/362258.362278)
 
-<a name="Cheriton1984"></a>
-[Cheriton, D.R. The V kernel, a software base for distributed systems. IEEE Software 1, 4 (Apr. 1984), 19–42.](http://dx.doi.org/10.1109/MS.1984.234046)
+4. <a name="Cheriton1984"></a>
+[Cheriton, D.R. The V kernel, a software base for distributed systems. *IEEE Software 1*, 4 (Apr. 1984), 19–42.](https://doi.org/10.1109/MS.1984.234046)
 
-<a name="Giuffrida2013-1"></a>
-Giuffrida, C., Iorgulescu, C., Kuijsten, A., and Tanenbaum, A.S. Back to the future: Fault-tolerant live update with time-traveling state transfer. In Proceedings of the 27th Large Installation System Administration Conference (Washington D.C., Nov. 3–8). USENIX Association, Berkeley, CA, 2013, 89–104.
+5. <a name="Giuffrida2013-1"></a>
+[Giuffrida, C., Iorgulescu, C., Kuijsten, A., and Tanenbaum, A.S. Back to the future: Fault-tolerant live update with time-traveling state transfer. In *Proceedings of the 27th Large Installation System Administration Conference* (Washington D.C., Nov. 3–8). USENIX Association, Berkeley, CA, 2013, 89–104.](https://www.usenix.org/conference/lisa13/technical-sessions/presentation/giuffrida)
 
-<a name="Giuffrida2013-2"></a>
-Giuffrida, C., Kuijsten, A., and Tanenbaum, A.S. Safe and automatic live update for operating systems. In Proceedings of the 18th International Conference on Architectural Support for Programming Languages and Operating Systems (Houston, TX, Mar. 16–20). ACM Press, New York, 2013, 279–292.
+6. <a name="Giuffrida2013-2"></a>
+[Giuffrida, C., Kuijsten, A., and Tanenbaum, A.S. Safe and automatic live update for operating systems. In *Proceedings of the 18th International Conference on Architectural Support for Programming Languages and Operating Systems* (Houston, TX, Mar. 16–20). ACM Press, New York, 2013, 279–292.](https://doi.org/10.1145/2499368.2451147)
 
-<a name="Herder2010"></a>
-[Herder, J. Building a Dependable Operating System, Fault Tolerance in MINIX 3. Ph.D. Thesis, Vrije Universiteit, Amsterdam, the Netherlands, 2010.](http://www.cs.vu.nl/~ast/Theses/herder-thesis.pdf)
+7. <a name="Herder2010"></a>
+Herder, J. Building a Dependable Operating System, Fault Tolerance in MINIX 3. Ph.D. Thesis, Vrije Universiteit, Amsterdam, the Netherlands, 2010.; <http://www.cs.vu.nl/~ast/Theses/herder-thesis.pdf>
 
-<a name="Hruby2013"></a>
-Hruby, T., Bos, H., and Tanenbaum, A.S. When slower is faster: On heterogeneous multicores for reliable systems. In Proceedings of the Annual Technical Conference (San Jose, CA, June 26–28). USENIX Association, Berkeley, CA, 2013, 255–266.
+8. <a name="Hruby2013"></a>
+[Hruby, T., Bos, H., and Tanenbaum, A.S. When slower is faster: On heterogeneous multicores for reliable systems. In *Proceedings of the Annual Technical Conference* (San Jose, CA, June 26–28). USENIX Association, Berkeley, CA, 2013, 255–266.](https://www.usenix.org/node/174529)
 
-<a name="Klien2009"></a>
-[Klein G., Elphinstone, K., Heiser, G., Andronick, J., Cock, D., Derrin, P., Elkaduwe, D., Engelhardt, K., Kolanski, R., Norrish, M., Swell, T., Tuch, H., and Winwood, S. seL4: Formal verification of an OS kernel. In Proceedings of the 22nd Symposium on Operating Systems Principles (Big Sky, MT, Oct. 11–14). ACM Press, New York, 2009, 207–220.](http://dx.doi.org/10.1145/1629575.1629596)
+9. <a name="Klien2009"></a>
+[Klein G., Elphinstone, K., Heiser, G., Andronick, J., Cock, D., Derrin, P., Elkaduwe, D., Engelhardt, K., Kolanski, R., Norrish, M., Swell, T., Tuch, H., and Winwood, S. seL4: Formal verification of an OS kernel. In *Proceedings of the 22nd Symposium on Operating Systems Principles* (Big Sky, MT, Oct. 11–14). ACM Press, New York, 2009, 207–220.](https://doi.org/10.1145/1629575.1629596)
 
-<a name="Liedtke1993"></a>
-[Liedtke, J. Improving IPC by kernel design. In Proceedings of the 14th ACM Symposium on Operating Systems Principles (Asheville, NC, Dec. 5–8). ACM Press, New York, 1993, 174–188.](http://dx.doi.org/10.1145/173668.168633)
+10. <a name="Liedtke1993"></a>
+[Liedtke, J. Improving IPC by kernel design. In *Proceedings of the 14th ACM Symposium on Operating Systems Principles* (Asheville, NC, Dec. 5–8). ACM Press, New York, 1993, 174–188.](https://doi.org/10.1145/173668.168633)
 
-<a name="Liedtke1995"></a>
-[Liedtke, J. On microkernel construction. In Proceedings of the 15th ACM Symposium on Operating Systems Principles (Copper Mountain Resort, CO, Dec. 3–6). ACM Press, New York, 1995, 237–250.](http://dx.doi.org/10.1145/224057.224075)
+11. <a name="Liedtke1995"></a>
+[Liedtke, J. On microkernel construction. In *Proceedings of the 15th ACM Symposium on Operating Systems Principles* (Copper Mountain Resort, CO, Dec. 3–6). ACM Press, New York, 1995, 237–250.](https://doi.org/10.1145/224057.224075)
 
-<a name="Rozier1988"></a>
-[Rozier, M., Abrossimov, V., Armand, F., Boule, I., Gien, M. Guillemont, M., Herrmann, F., Kaiser, C., Langlois, S., Leonard, P., and Neuhauser, W. The CHORUS distributed operating system. Computing Systems Journal 1, 4 (Dec. 1988), 305–370.](https://doi.org/10.1007/978-3-642-46604-5_10)
+12. <a name="Rozier1988"></a>
+[Rozier, M., Abrossimov, V., Armand, F., Boule, I., Gien, M. Guillemont, M., Herrmann, F., Kaiser, C., Langlois, S., Leonard, P., and Neuhauser, W. The CHORUS distributed operating system. *Computing Systems Journal 1*, 4 (Dec. 1988), 305–370.](https://doi.org/10.1007/978-3-642-46604-5_10)
 
-<a name="Saltzer1975"></a>
-Saltzer, J.H. and Schroeder, M.D. The protection of information in computer systems. Proceedings of the IEEE 63, 9 (Sept. 1975), 1278–1308.
+13. <a name="Saltzer1975"></a>
+[Saltzer, J.H. and Schroeder, M.D. The protection of information in computer systems. *Proceedings of the IEEE 63*, 9 (Sept. 1975), 1278–1308.](http://web.mit.edu/Saltzer/www/publications/protection/index.html)
 
-<a name="Salus1994"></a>
-[Salus, P.H. *A Quarter Century of UNIX*. Addison-Wesley, Reading, MA, 1994.](URN:ISBN:978-0201547771)
+14. <a name="Salus1994"></a>
+Salus, P.H. *A Quarter Century of UNIX*. Addison-Wesley, Reading, MA, 1994.
 
-<a name="Tanenbaum1987"></a>
-Tanenbaum, A.S. Operating Systems Design and Implementation, First Edition. Prentice Hall, Upper Saddle River, NJ, 1987.
+15. <a name="Tanenbaum1987"></a>
+Tanenbaum, A.S. *Operating Systems Design and Implementation, First Edition*. Prentice Hall, Upper Saddle River, NJ, 1987.
 
-<a name="Tanenbaum2006"></a>
-[Tanenbaum, A.S., Herder, J., and Bos, H.J. Can we make operating systems reliable and secure? Computer 39, 5 (May 2006), 44–51.](http://dx.doi.org/10.1109/MC.2006.156)
+16. <a name="Tanenbaum2006"></a>
+[Tanenbaum, A.S., Herder, J., and Bos, H.J. Can we make operating systems reliable and secure? *Computer 39*, 5 (May 2006), 44–51.](https://doi.org/10.1109/MC.2006.156)
 
-<a name="Tanenbaum1981"></a>
-Tanenbaum, A.S. and Mullender, S.J. A capability-based distributed operating system. In Proceedings of the Conference on Local Networks & Distributed Office Systems (London, U.K., May 1981), 363–377.
+17. <a name="Tanenbaum1981"></a>
+Tanenbaum, A.S. and Mullender, S.J. A capability-based distributed operating system. In *Proceedings of the Conference on Local Networks & Distributed Office Systems* (London, U.K., May 1981), 363–377.
 
-<a name="Tanenbaum1983"></a>
-[Tanenbaum, A.S, van Staveren, H., Keizer, E.G., and Stevenson, J.W. A practical toolkit for making portable compilers. *Commun. ACM* 26, 9 (Sept. 1983), 654–660.](http://dx.doi.org/10.1145/358172.358182)
+18. <a name="Tanenbaum1983"></a>
+[Tanenbaum, A.S, van Staveren, H., Keizer, E.G., and Stevenson, J.W. A practical toolkit for making portable compilers. *Commun. ACM 26*, 9 (Sept. 1983), 654–660.](https://doi.org/10.1145/358172.358182)
 
+--
 <a name="Elephants"></a>
-[訳注] アガサ・クリスティーの[Elephants Can Remember（邦題: 象は忘れない）](URN:ISBN:0-00-231210-7) より。
+（訳注） アガサ・クリスティーの[Elephants Can Remember（邦題: 象は忘れない）](URN:ISBN:0-00-231210-7) より。
 
 --
 （訳文の間違いなどは[https://github.com/keiichishima/tanenbaum\_minix\_article](https://github.com/keiichishima/tanenbaum_minix_article)のissue trackerよりご連絡ください。）
