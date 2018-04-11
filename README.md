@@ -5,3 +5,4 @@
 - ふぉーてぃないなー (@49ermania) 様
 - Tooru Takahashi (tooru) 様
 - chuntaro (chuntaro)　様
+- 和田英一 先生
