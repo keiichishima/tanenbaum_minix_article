@@ -6,3 +6,4 @@
 - Tooru Takahashi (tooru) 様
 - chuntaro (chuntaro)　様
 - 和田英一 先生
+- 結城浩 (@hyuki) 様
