@@ -1,4 +1,5 @@
 (本文書はAndrew S. Tanenbaum教授の許可をいただいて島慶一が翻訳しました。)
+
 # MINIXの30年の歴史から学んだこと (原題: Lessons learned from 30 years of Minix)
 
 著者: Andrew S. Tanenbaum (収録: [Communications of the ACM, Vol. 59 No. 3, March 2016, Pages 70-78](http://dx.doi.org/10.1145/2795228))
@@ -270,9 +271,9 @@ Tanenbaum, A.S. and Mullender, S.J. A capability-based distributed operating sys
 18. <a name="Tanenbaum1983"></a>
 [Tanenbaum, A.S, van Staveren, H., Keizer, E.G., and Stevenson, J.W. A practical toolkit for making portable compilers. *Commun. ACM 26*, 9 (Sept. 1983), 654–660.](https://doi.org/10.1145/358172.358182)
 
---
+* * *
 <a name="Elephants"></a>
 (訳注) アガサ・クリスティーの[Elephants Can Remember (邦題: 象は忘れない)](URN:ISBN:0-00-231210-7) より。
 
---
+* * *
 (訳文の間違いなどは[GitHubのIssue Tracker](https://github.com/keiichishima/tanenbaum_minix_article)、あるいは twitter:@keiichishima よりご連絡ください。)
