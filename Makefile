@@ -6,4 +6,4 @@ OUTPUT = $(SOURCE:.md=.html)
 all: $(OUTPUT)
 
 %.html: %.md style.css
-	$(PANDOC) -c style.css -s "$<" -o "$@"
+	$(PANDOC) -c style.css --embed-resources -s "$<" -o "$@"
